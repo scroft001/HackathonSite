@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*, html, body{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    border-bottom: solid 1px black;
+}
+
+.logo{
+    width: 150px;
+    display: inline;
+    float: left;
+    padding: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    font-size: 18px;
+    float: right;
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 14px 14px;
+    margin-top: 5px;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+
+li a:hover{
+    transform: scale(1.1);
+}
+
+.video{
+    text-align: center;
+    min-height: 500px;
+    background-color: white;
+    background: url();
+    background-size: cover;
+    background-position: center;
+}
+
+
+.slogans{
+    margin-top: 100px;
+    color: black;
+}
+
+.slogans h1{
+    font-size: 100px;
+}
+
+.slogans h2{
+    font-size: 40px;
+}
+
+.slogans h3{
+    padding: 15px;
+    width: 200px;
+    margin: 40px auto;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+.slogans h3:hover{
+    background-color: darkgray;
+}
+
+.options{
+    width: 95%;
+    margin: auto;
+}
+
+.hackathon{
+    display: inline-block;
+    width: 30%;
+    margin: auto 1em;
+    text-align: center;
+    border: solid 1px black;
+    transition: all .2s ease-in-out;
+    vertical-align: top;
+}
+
+.hackathon:hover{
+    transform: scale(1.1);
+}
+
+.hackathon img{
+    width: 100%;
+}
+
+.hackathon h2, p{
+    padding: 10px;
+}
+
+.callout{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background:gray;
+}
+
+.callout h2{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.callout p{
+    font-size: 24px;
+    padding: 20px;
+}
