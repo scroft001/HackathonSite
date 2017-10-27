@@ -117,7 +117,9 @@ li a:hover{
     width: 100%;
     margin: auto;
     text-align: center;
-    background:gray;
+/*    background:gray;*/
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .callout h2{
