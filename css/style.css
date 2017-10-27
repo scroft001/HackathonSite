@@ -311,3 +311,17 @@ textarea:hover {
 #submit:hover {
   color: #e2dedb;
 }
+
+/*------------------------------ End Form CSS --------------------------------*/
+
+.arcadeNight{
+    background-image: url(../images/ArcadeNightHeader.png);
+}
+
+.arcadeNight a{
+    color: white;
+}
+
+.arcadeNight .navbar{
+    border-bottom: 1px solid white;
+}
