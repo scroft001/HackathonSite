@@ -1,3 +1,3 @@
 function showForm(){
-    w3.show("#form");
+    w3.toggleShow("#form");
 }
