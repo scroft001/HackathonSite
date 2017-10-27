@@ -6,10 +6,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
         <link href="css/style.css" rel="stylesheet">
-        <script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
         <script src="js/script.js"></script>
 	</head>
 
@@ -21,7 +18,7 @@
                 <h2 class="logo"><a href="index.html">Hackingtons</a></h2>
                 <ul>
                     <li><a href="#">Past Events</a></li>
-                    <li><a href="#">About Events</a></li>
+                    <li><a href="http://hackingtons.com">About Hackingtons</a></li>
                     <li><a href="#">Hosting</a></li>
                 </ul>
             </div>
@@ -30,8 +27,21 @@
             <div class="slogans">
                 <h1>Host a Hackathon</h1>
                 <h2>Bring your community together</h2>
-                <a href="#"><h3>Let's do it</h3></a>
+                <h3 onclick="showForm()">Let's do it</h3>
             </div>
+        </div>
+        
+        <div id="form">
+            <header>Hackathon Request</header>
+
+            <form id="form" class="topBefore">
+		
+		      <input id="name" type="text" placeholder="NAME">
+		      <input id="email" type="text" placeholder="E-MAIL">
+		      <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+                <input id="submit" type="submit" value="GO!">
+  
+            </form>
         </div>
         
         
