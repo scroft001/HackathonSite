@@ -129,3 +129,14 @@ li a:hover{
     font-size: 24px;
     padding: 20px;
 }
+
+footer{
+    background-color: #dedede;
+    text-align: center;
+}
+
+footer h4{
+    width: 300px;
+    display: inline-block;
+    padding: 15px;
+}
