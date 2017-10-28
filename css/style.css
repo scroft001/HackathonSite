@@ -20,6 +20,8 @@ html{
     float: left;
     padding: 14px;
 }
+@media(max-width: 900px){}
+@media(max-width: 600px){.logo{display: block; float: none;}}
 
 a{
     text-decoration: none;
@@ -32,6 +34,8 @@ ul{
     padding: 0;
     overflow: hidden;
 }
+
+@media(max-width: 600px){ul{text-align: center}}
 
 li{
     font-size: 18px;
@@ -46,6 +50,7 @@ li a{
     text-align: center;
     transition: all .2s ease-in-out;
 }
+@media(max-width: 600px){li a{padding: 5px;} li a:hover{ transform: none;} }
 
 li a:hover{
     transform: scale(1.1);
@@ -59,7 +64,7 @@ li a:hover{
     background-size: cover;
     background-position: center;
 }
-
+@media(max-width: 600px){.video{background: white;}}
 
 .slogans{
     margin-top: 100px;
@@ -70,9 +75,15 @@ li a:hover{
     font-size: 100px;
 }
 
+@media(max-width: 900px){.slogans h1{font-size: 60px;}}
+@media(max-width: 600px){.slogans h1{font-size: 40px;}}
+
 .slogans h2{
     font-size: 40px;
 }
+
+@media(max-width: 900px){.slogans h2{font-size: 30px;}}
+@media(max-width: 600px){.slogans h2{font-size: 20px;}}
 
 .slogans h3{
     padding: 15px;
@@ -119,11 +130,14 @@ li a:hover{
     font-size: 40px;
     padding: 20px;
 }
+@media(max-width: 600px){.callout h2{font-size: 30px;}}
 
 .callout p{
     font-size: 24px;
     padding: 20px;
 }
+
+@media(max-width: 600px){.callout p{font-size: 18px;}}
 
 footer{
     background-color: #dedede;
