@@ -64,7 +64,9 @@ li a:hover{
     background-size: cover;
     background-position: center;
 }
-@media(max-width: 600px){.video{background: white;}}
+@media(max-width: 1025px){.video{min-height: 40vh;}}
+@media(max-width: 900px){.video{min-height: 40vh;}}
+@media(max-width: 600px){.video{background: white; min-height: 40vh;}}
 
 .slogans{
     margin-top: 100px;
@@ -240,11 +242,15 @@ header {
   letter-spacing: 7px;
 }
 
+@media(max-width: 600px){header{font-size: 20px; margin: auto;}}
+
 #form {
   position: relative;
   width: 500px;
   margin: 50px auto 100px auto;
 }
+
+@media(max-width: 600px){#form{width: 100%}}
 
 input {
   font-family: 'Lato', sans-serif;
@@ -265,6 +271,8 @@ input {
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
 }
+
+@media(max-width: 600px){input{width: 100%}}
 
 input:hover {
   background: #b3aca7;
@@ -293,6 +301,8 @@ textarea {
   -ms-transition: all 0.3s ease-in-out;
 }
 
+@media(max-width: 600px){textarea{width: 100%}}
+
 textarea:hover {
   background: #b3aca7;
   color: #e2dedb;
@@ -314,6 +324,8 @@ textarea:hover {
   border: solid 1px #b3aca7;
   border-top: none;
 }
+
+@media(max-width: 600px){#submit{width: 100%}}
 
 #submit:hover {
   color: #e2dedb;
