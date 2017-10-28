@@ -86,19 +86,12 @@ li a:hover{
     background-color: darkgray;
 }
 
-.options{
-    width: 95%;
-    margin: auto;
-}
 
 .hackathon{
-    display: inline-block;
-    width: 30%;
     margin: auto 1em;
     text-align: center;
     border: solid 1px black;
     transition: all .2s ease-in-out;
-    vertical-align: top;
 }
 
 .hackathon:hover{
