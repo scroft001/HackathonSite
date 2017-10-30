@@ -1,0 +1,29 @@
+.startupNight{
+    background-image: url(../images/StartupHeader.png);
+}
+
+@media(max-width: 600px){.startupNight{background: black; min-height: 40vh;}}
+
+li a, .logo a{
+    color: white;
+}
+
+.navbar{
+    border-color: white;
+}
+
+.slogans{
+    color: white;
+}
+
+@media(max-width: 600px){.slogans{margin-top: -10px; padding: 20px;}}
+
+.about img{
+    padding: 10px;
+    width: 100%;
+}
+
+.about p, .about h2{
+    padding: 10px;
+}
+
